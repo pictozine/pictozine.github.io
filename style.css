@@ -197,5 +197,17 @@ padding-left: 10px;
 	.tfclear{
 		clear:both;
 	}
+@media screen and (max-width: 720px) {
 
+.contain {
+column-count:1;
+right: -2vw;
+}
+.img {
+	width: 50vw;
+	padding:1vw;
+	transition-duration: .2s;
+}
+
+}
 
